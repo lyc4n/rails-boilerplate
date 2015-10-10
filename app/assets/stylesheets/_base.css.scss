@@ -1,0 +1,12 @@
+// This should store global css variables and this must¬         
+// be included in almost every other scss that needs those global
+// values¬
+// eg:
+// $main_color: blue;
+
+// layouts.scss -----------------------------
+//¬
+// @import "vars";
+// td.example {
+//   background: $main_color
+// }¬

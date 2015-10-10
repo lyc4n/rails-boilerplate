@@ -1,0 +1,18 @@
+DOCTYPE html
+html
+  head
+    title Rails Boilerplate
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+  body
+    .navbar.navbar-default.navbar-fixed-top
+      .container
+        .navbar-header
+          a.navbar-brand href="/" Lyc4n - Rails Boilerplate
+    .main-container.container
+      - if notice
+        p.alert.alert-dismissible.alert-info =notice
+      - if alert
+        p.alert.alert-dismissible.alert-warning =alert
+      = yield
