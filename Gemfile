@@ -31,4 +31,4 @@ end
 gem 'devise', '~> 3.5.2'
 gem 'slim', '~> 3.0.6'
 
-gem 'rails-rename', '~> 1.0.0'
+gem 'rails-rename', :github => 'lyc4n/rails-rename'
